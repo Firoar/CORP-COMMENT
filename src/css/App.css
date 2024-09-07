@@ -1,0 +1,172 @@
+html,
+body,
+#root,
+#root > .main {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  background: url("/home/chiru/Desktop/byte grad/CORP-COMMENT/src/assets/Purple.jpeg")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  position: absolute;
+  display: block;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  text-align: center;
+  white-space: nowrap;
+}
+
+.about {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btn-sign-in {
+  position: absolute;
+  top: 35%;
+
+  width: 8%;
+  height: 4%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+
+.sign-up-div {
+  position: absolute;
+  top: 41%;
+}
+
+.sign-up-link {
+  color: black;
+  text-decoration: none;
+}
+
+.block {
+  display: block;
+  width: 80%;
+  height: 5%;
+}
+
+.block-btn {
+  display: block;
+  width: 80%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+.sign-form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-in-form {
+  width: 25%;
+  height: 65%;
+  border: solid black 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8%;
+}
+
+.s-in-form > input {
+  border: none;
+  border-bottom: solid silver 2px;
+}
+
+.block2 {
+  display: block;
+  width: 80%;
+  height: 8%;
+}
+
+.block-btn2 {
+  display: block;
+  width: 80%;
+  height: 10%;
+  border-radius: 5px;
+}
+
+.s-up-form {
+  width: 25%;
+  height: 45%;
+  border: solid black 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8%;
+}
+
+.s-up-form > input {
+  border: none;
+  border-bottom: solid silver 2px;
+}
+
+.warning {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+/* .main-feed {
+  height: 100%;
+  width: 100%;
+  background-color: blueviolet;
+} */
+
+html,
+body,
+#root,
+#root > .main {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-feed {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(187, 92, 187);
+  position: relative;
+}
+
+.review-error-msg {
+  position: absolute;
+  top: 30%;
+  color: rgb(238, 8, 8);
+}

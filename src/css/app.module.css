@@ -1,0 +1,196 @@
+html,
+body,
+#root,
+#root > .main {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-feed {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(187, 92, 187);
+  position: relative;
+}
+
+.review-box {
+  height: 90%;
+  width: 50%;
+  border: solid white 1px;
+  position: absolute;
+  top: 5%;
+  left: 25%;
+}
+
+.company-box {
+  height: 50%;
+  width: 10%;
+  /* border: solid white 1px; */
+  position: absolute;
+  right: 13%;
+  top: 5%;
+}
+
+.review-search-box {
+  height: 30%;
+  width: 100%;
+  background-image: url("/home/chiru/Desktop/byte grad/CORP-COMMENT/feed-app/src/assets/black-pattern2.jpg");
+  position: relative;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-post-box {
+  height: 70%;
+  width: 100%;
+  background-color: whitesmoke;
+  overflow: scroll;
+}
+
+.review-title {
+  position: absolute;
+  color: rgb(250, 245, 245);
+  top: 2%;
+}
+
+.review-about {
+  position: absolute;
+  color: whitesmoke;
+  top: 13%;
+  height: 10%;
+}
+
+.review-error-msg {
+  position: absolute;
+  top: 23%;
+  font-size: x-small;
+  color: whitesmoke;
+}
+
+/* // https://bytegrad.com/course-assets/js/1/logo.svg */
+/* .review-form {
+  width: 100%;
+} */
+
+.review-textarea {
+  position: absolute;
+  top: 50%;
+  width: 56%;
+  height: 40%;
+  resize: none;
+  background-color: rgb(63, 61, 61);
+}
+
+.review-submit-btn {
+  position: absolute;
+  top: 80%;
+  right: 24%;
+  width: 10%;
+  height: 10%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+}
+
+.review-count {
+  position: absolute;
+  top: 75%;
+  left: 24%;
+  color: silver;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.one-post {
+  border-bottom: solid rgb(167, 162, 162) 1px;
+  position: relative;
+  width: 100%;
+  height: 12%;
+}
+
+.upvote-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 45%;
+  position: absolute;
+  top: 30%;
+  width: 4%;
+  left: 1%;
+  background-color: whitesmoke;
+  border: none;
+  color: rgb(167, 162, 162);
+}
+
+.Company-letter {
+  width: 5%;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  /* border: solid red 1px; */
+  left: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-color: rgb(43, 226, 141);
+  border-radius: 5px;
+}
+
+.Company {
+  position: absolute;
+  top: 10%;
+  left: 14%;
+  color: rgb(167, 162, 162);
+}
+
+.review-text {
+  position: absolute;
+  top: 40%;
+  left: 14%;
+  width: 75%;
+  height: 60%;
+  /* border: solid red 1px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.daysPassed {
+  position: absolute;
+  left: 92%;
+  top: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(167, 162, 162);
+}
+
+.one-company {
+  width: 80%;
+  height: 10%;
+  /* border: solid red 1px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 5%;
+  background-color: rgba(238, 181, 238, 0.5);
+  font-size: 20px;
+  color: white;
+}
+.one-company:hover {
+  cursor: pointer;
+}
+
+.error-msg {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
